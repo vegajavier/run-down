@@ -8,13 +8,18 @@ import Footer from './components/footer/footer'
 class App extends Component {
   render() {
     return (
-      <header>
+      <div>
         <Navbar/>
+          <Logo/>
+          <Footer/>
+
+      </div>
+      
+       
+    
+            
           
-            <Logo/>
-            <Footer/>
-          
-      </header>
+      
       
       
     );
