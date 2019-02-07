@@ -5,6 +5,7 @@ import Logo from './components/header/logo'
 import Footer from './components/footer/footer'
 import About from './components/header/About'
 import Contact from './components/contact/Contact'
+import Subscribe from './components/subscribe/Subscribe';
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <Navbar/>
           <Logo/>
               <About/>
+              <Subscribe/>
               <Contact/>
           <Footer/>
 
