@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import { Navbar, Row, Col, Container } from 'react-bootstrap';
+import './footer.css'
 
 let year = new Date().getFullYear();
 
 export default class Footer extends Component {
 	render() {
 		return (
+			
+			
+			<section id = "footer"> 
 			<Navbar sticky="bottom">
 				<Container>
 					<Col lg="auto">
@@ -21,6 +25,9 @@ export default class Footer extends Component {
 					</Row>
 				</Container>
 			</Navbar>
+			</section>
+
+			
 		);
 	}
 }
