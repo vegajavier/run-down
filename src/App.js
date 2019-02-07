@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Logo from './components/header/logo'
 import Footer from './components/footer/footer'
 import About from './components/header/About'
+import Contact from './components/contact/Contact'
 
 
 class App extends Component {
@@ -12,9 +13,8 @@ class App extends Component {
       <div>
         <Navbar/>
           <Logo/>
-          <container>
-                        <About/>
-                    </container>
+              <About/>
+              <Contact/>
           <Footer/>
 
       </div>
