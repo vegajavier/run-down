@@ -1,0 +1,14 @@
+#images{
+	margin-left: 105px;
+	align-content: center;
+}
+
+.img-thumbnail {
+	
+	border: 0 none;
+	border-radius: 35px;
+	box-shadow: 0 2px 2px rgba(164, 158, 147, 0.6);
+	margin-bottom: 10px;
+	height:150px;
+	width: 150px;
+  }
