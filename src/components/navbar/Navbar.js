@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './navbar.css'
-//import { Navbar, Nav, Container, Col, Row } from 'react-bootstrap';
+import './navbar.css';
 
 export default class customNav extends Component {
+	
 	render() {
+		
 		return (
 			<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 				<div class="container">

@@ -5,7 +5,7 @@ import './logo.css';
 export default class Logo extends Component {
 	render() {
 		return (
-			<header class="masthead">
+			<header id = "page-top" class="masthead">
 				<div class="container d-flex h-100 align-items-center">
 					<div class="mx-auto text-center">
 						<h2 class="text-white-50 mx-auto mt-2 mb-5">A Network for the fans</h2>
