@@ -1,24 +1,23 @@
 .jumbotron{
-	position: relative;
+    position: relative;
 	width: 100%;
 	height: auto;
-	min-height: 35rem;
-	padding: 22rem;
-	margin-bottom: 0rem;
+	min-height: 25rem;
+	padding: 20rem 0;
 	background: -webkit-gradient(
 			linear,
 			left top,
 			left bottom,
 			from(rgba(22, 22, 22, 0.1)),
-			color-stop(50%, rgba(22, 22, 22, 0.9)),
+			color-stop(75%, rgba(22, 22, 22, 0.5)),
 			to(#161616)
 		),
-		url("/assets/images/blue.jpg");
+		url("/assets/images/black.jpg");
 	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%),
-		url("/assets/images/blue.jpg");
+		url("/assets/images/black.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment: scroll;
 	background-size: cover;
 }
-
-
+   

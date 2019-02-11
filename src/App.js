@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
+
+import { BrowserRouter as Router ,Route} from "react-router-dom";
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Logo from './components/header/logo'
-import Footer from './components/footer/footer'
-import About from './components/header/About'
-import Contact from './components/contact/Contact'
-import Subscribe from './components/subscribe/Subscribe';
+//import Shows from './components/shows/shows';
+import Home from './components/home/Home'
 
 
 class App extends Component {
   render() {
     return (
+      <Router>
       <div>
         <Navbar/>
-          <Logo/>
-              <About/>
-              <Subscribe/>
-              <Contact/>
-          <Footer/>
-
-      </div>
+        <Route exact path="/" component={Home} />
+        
+       </div>
+    </Router>
+    
     );
   }
 }

@@ -1,48 +1,26 @@
 import React, { Component } from 'react';
+//import { Link } from 'react-router-dom';
+import {Navbar,Nav} from 'react-bootstrap';
 import './navbar.css';
 
 export default class customNav extends Component {
-	
 	render() {
-		
 		return (
-			<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-				<div class="container">
-					<a class="navbar-brand js-scroll-trigger" href="#page-top"> The RunDown
-					</a>
-					<button
-						class="navbar-toggler navbar-toggler-right"
-						type="button"
-						data-toggle="collapse"
-						data-target="#navbarResponsive"
-						aria-controls="navbarResponsive"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						Menu
-						<i class="fas fa-bars" />
-					</button>
-					<div class="collapse navbar-collapse" id="navbarResponsive">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link js-scroll-trigger" href="#about">
-									About
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link js-scroll-trigger" href="#projects">
-									Shows
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link js-scroll-trigger" href="#signup">
-									Join
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+			<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+				<Navbar.Brand href="#page-top">The Run Down</Navbar.Brand>
+				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+				<Navbar.Collapse id="responsive-navbar-nav">
+					<Nav className="mr-auto">
+						<Nav.Link href="#about">About Us</Nav.Link>
+						<Nav.Link href="./shows">Podcast</Nav.Link>
+						
+					</Nav>
+					<Nav>
+						<Nav.Link href="#signup">Join</Nav.Link>
+						
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
 		);
 	}
 }
