@@ -26,71 +26,7 @@ export default class Pods extends Component {
 							<p />
 						</Media.Body>
 					</Media>
-					<Media>
-						<img
-							width={120}
-							height={120}
-							className="mr-3"
-							src="/assets/images/49erscover.jpeg"
-							alt="Generic placeholder"
-						/>
-						<Media.Body>
-							<h5>4th & Gold Podcast</h5>
-							<p />
-						</Media.Body>
-					</Media>
-					<Media>
-						<img
-							width={120}
-							height={120}
-							className="mr-3"
-							src="/assets/images/49erscover.jpeg"
-							alt="Generic placeholder"
-						/>
-						<Media.Body>
-							<h5>4th & Gold Podcast</h5>
-							<p />
-						</Media.Body>
-					</Media>
-					<Media>
-						<img
-							width={120}
-							height={120}
-							className="mr-3"
-							src="/assets/images/49erscover.jpeg"
-							alt="Generic placeholder"
-						/>
-						<Media.Body>
-							<h5>4th & Gold Podcast</h5>
-							<p />
-						</Media.Body>
-					</Media>
-					<Media>
-						<img
-							width={120}
-							height={120}
-							className="mr-3"
-							src="/assets/images/49erscover.jpeg"
-							alt="Generic placeholder"
-						/>
-						<Media.Body>
-							<h5>4th & Gold Podcast</h5>
-							<p />
-						</Media.Body>
-					</Media>
-					<Media>
-						<img
-							width={120}
-							height={120}
-							className="mr-3"
-							src="/assets/images/49erscover.jpeg"
-							alt="Generic placeholder"
-						/>
-						<Media.Body>
-							<h5>4th & Gold Podcast</h5>
-							<p />
-						</Media.Body>
-					</Media>
+					
 				</div>
 			</div>
 		);
