@@ -13,15 +13,10 @@ export default class Pods extends Component {
 				<div>
 					<Container>
 						<Media>
-							<img
-								width={120}
-								height={120}
-								className="mr-3"
-								src="/assets/images/49erscover.jpeg"
-								alt="Generic placeholder"
-							/>
-							<Media.Body>
+						<Media.Body>
+						<iframe src="https://anchor.fm/4thgold-podcast/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 								<h5>4th & Gold Podcast</h5>
+								<p> 4th & Gold Podcast Hosted by Javier Vega, brings you everything 49ers related. </p>
 								<p />
 							</Media.Body>
 						</Media>
